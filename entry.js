@@ -5,7 +5,11 @@ var HelloWorld = React.createClass({
   render: function(){
     return (
       <div>
-        Hello World!!
+	    kenchang.org
+		<p>
+		  <a href="https://www.facebook.com/kennethchang">facebook</a><br/>
+		  <a href="https://www.linkedin.com/in/kenchang1">linkedin</a><br/>
+		</p>
       </div>
     )
   }
