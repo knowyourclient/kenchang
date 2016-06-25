@@ -4,6 +4,8 @@ var Router = require('react-router').Router
 var Route = require('react-router').Route
 var Link = require('react-router').Link
 
+import { hashHistory } from 'react-router'
+
 var divStyle = {
   fontFamily: 'Helvetica'
 };
@@ -11,7 +13,7 @@ var divStyle = {
 var App = React.createClass({
   render: function(){
     return (
-	  <Router>
+	  <Router history={hashHistory}>
         <Route path='/' component={Hello} />
         <Route path='/resume' component={Resume} /> 
       </Router>)
@@ -43,7 +45,7 @@ var Resume = React.createClass({
       <div>
 	    <Link to='/'>kenchang.org</Link>
 		<p>
-		  try again later.
+		  to be continued.
 		</p>
       </div>
     )
