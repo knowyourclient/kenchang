@@ -29,7 +29,7 @@ var Hello = React.createClass({
 		  <a href="https://www.instagram.com/modestbook/">instagram</a><br/>
 		</p>
 		<p>
-		  <Link to='/resume'>résumé</Link><br/>
+		  <Link to='/resume'>resume</Link><br/>
 		  <a href="https://www.modestbook.com/">modestbook</a>
 		</p>
       </div>
