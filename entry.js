@@ -44,8 +44,41 @@ var Resume = React.createClass({
     return (
       <div>
 	    <Link to='/'>kenchang.org</Link>
+		<hr/>
 		<p>
-		  to be continued.
+		  <h3>Plethora</h3>
+		  cad software integration & .net/windows expertise
+		</p>
+		<p>
+		  <h3>JPMorgan Chase</h3>
+		  cash flow management software for treasury services
+		  <ul>
+			<li>app development lead for cash management and payments platform</li>
+			<li>excel plugin development</li>
+			<li>project management and coordination of developer, qa, and ba resources</li>
+		  </ul>
+		</p>
+		<p>
+		  <h3>Barclays Capital</h3>
+		  commodities desk trading tools
+		  <ul>
+			<li>data warehousing for US commodities fundamentals</li>
+			<li>electricity market price forecasting tool</li>
+			<li>internal api and framework development for config, logging, messaging and data access</li>
+		  </ul>		  
+		</p>
+		<p>
+		  <h3>Halliburton</h3>
+		  telemetry software for measurement while drilling
+		  <ul>
+			<li>service/client apps for execution & monitoring of telemetry systems (electromagnetic, mud pulse)</li>
+			<li>drill job reporting app</li>
+			<li>global oilfield survey management tools</li>
+		  </ul>	
+		</p>
+		<p>
+		  <h3>University of Texas at Austin</h3>
+		  b.s. electrical and computer engineering
 		</p>
       </div>
     )
