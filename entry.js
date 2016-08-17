@@ -4,16 +4,18 @@ var Router = require('react-router').Router
 var Route = require('react-router').Route
 var Link = require('react-router').Link
 
-import { hashHistory } from 'react-router'
+import { useRouterHistory } from 'react-router'
+import { createHashHistory } from 'history'
+const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
 
 var divStyle = {
-  fontFamily: 'Helvetica'
+  fontFamily: 'Georgia'
 };
 
 var App = React.createClass({
   render: function(){
     return (
-	  <Router history={hashHistory}>
+	  <Router history={appHistory}>
         <Route path='/' component={Hello} />
         <Route path='/resume' component={Resume} /> 
       </Router>)
@@ -45,11 +47,8 @@ var Resume = React.createClass({
       <div>
 	    <Link to='/'>kenchang.org</Link>
 		<hr/>
-		<p>
 		  <h3>Plethora</h3>
 		  cad software integration & .net/windows expertise
-		</p>
-		<p>
 		  <h3>JPMorgan Chase</h3>
 		  cash flow management software for treasury services
 		  <ul>
@@ -57,8 +56,6 @@ var Resume = React.createClass({
 			<li>excel plugin development</li>
 			<li>project management and coordination of developer, qa, and ba resources</li>
 		  </ul>
-		</p>
-		<p>
 		  <h3>Barclays Capital</h3>
 		  commodities desk trading tools
 		  <ul>
@@ -66,8 +63,6 @@ var Resume = React.createClass({
 			<li>electricity market price forecasting tool</li>
 			<li>internal api and framework development for config, logging, messaging and data access</li>
 		  </ul>		  
-		</p>
-		<p>
 		  <h3>Halliburton</h3>
 		  telemetry software for measurement while drilling
 		  <ul>
@@ -75,11 +70,8 @@ var Resume = React.createClass({
 			<li>drill job reporting app</li>
 			<li>global oilfield survey management tools</li>
 		  </ul>	
-		</p>
-		<p>
 		  <h3>University of Texas at Austin</h3>
 		  b.s. electrical and computer engineering
-		</p>
       </div>
     )
   }
