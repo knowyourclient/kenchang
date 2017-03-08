@@ -34,7 +34,7 @@ var Hello = React.createClass({
 		</p>
 		<p>
 		  <Link to='/resume'>resume</Link><br/>
-		  <a href="https://www.modestbook.com/">modestbook</a>
+		  <a href="http://www.modestbook.com/">modestbook</a>
 		</p>
       </div>
     )
