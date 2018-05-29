@@ -47,8 +47,15 @@ var Resume = React.createClass({
       <div>
 	    <Link to='/'>kenchang.org</Link>
 		<hr/>
+		  <h3>Amazon</h3>
+		  fee calculation engine and marketplace tools
 		  <h3>Plethora</h3>
 		  cad software integration & .net/windows expertise
+		  <ul>
+			<li>project lead for cad integrations with SOLIDWORKS, Autodesk Inventor, and Siemens NX</li>
+			<li>service framework for analysis and quoting engine</li>
+			<li>virtualized test automation for cad tools</li>
+		  </ul>
 		  <h3>JPMorgan Chase</h3>
 		  cash flow management software for treasury services
 		  <ul>
