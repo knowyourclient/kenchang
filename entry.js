@@ -48,7 +48,7 @@ var Resume = React.createClass({
 	    <Link to='/'>kenchang.org</Link>
 		<hr/>
 		  <h3>Amazon</h3>
-		  fee calculation engine and marketplace tools
+		  marketplace financial reporting
 		  <h3>Plethora</h3>
 		  cad software integration & .net/windows expertise
 		  <ul>
